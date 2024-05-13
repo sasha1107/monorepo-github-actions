@@ -32,4 +32,4 @@ jobs:
         run: yarn
 
       - name: Build
-        run: turbo run build --filter=web
+        run: yarn build:web
