@@ -64,7 +64,7 @@ export default function Page(): JSX.Element {
             rel="noopener noreferrer"
             target="_blank"
           >
-            By{" "}
+            By WEB
             <Image
               alt="Vercel Logo"
               className={styles.vercelLogo}
