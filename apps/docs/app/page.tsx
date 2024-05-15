@@ -57,6 +57,7 @@ export default function Page(): JSX.Element {
         <p>
           examples/basic&nbsp;
           <Code className={styles.code}>docs</Code>
+          수정수정
         </p>
         <div>
           <a
