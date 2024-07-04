@@ -6,6 +6,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: write
+      id-token: write 
     steps:
     - uses: actions/checkout@v2
     - name: 버전 정보 추출
